@@ -1,10 +1,11 @@
 /*reset*/
 body,html,p,a,span,h1,h2,h3,h4,h5,h6,ul,li {
 	padding: 0;
-	maring: 0;
+	margin: 0;
 }
-body {
-	font: 14px/2 "微软雅黑","宋体",sans-serif;
+body,
+html {
+	font: 10px/2 "微软雅黑","宋体",sans-serif;
 }
 li {
 	list-style-type: none;
@@ -15,10 +16,9 @@ a {
 
 /*layout*/
 .cv {
-	width: 90%;
+	width: 860px;
 	position: relative;
-	left: 50%;
-	margin-left: -45%;
+	margin: 0 auto;
 }
 
 .intro {
@@ -29,11 +29,11 @@ a {
 	padding-right: 6%;
 }
 .intro h1 {
-	font-size: 48px;
+	font-size: 4.8rem;
 	color: #fff;
 	text-align: center;
-	padding-top: 200px;
-	border-bottom: 2px solid #d7ecf1;
+	padding-top: 20rem;
+	border-bottom: .2rem solid #d7ecf1;
 	margin-bottom: 0;
 }
 .intro p {
@@ -42,10 +42,10 @@ a {
 	text-align: center;
 }
 .intro h2 {
-	font-size: 24px;
+	font-size: 2.4rem;
 	color: #f3f8f1;
 	text-align: center;
-	border-bottom: 1px solid #d7ecf1;
+	border-bottom: .1rem solid #d7ecf1;
 }
 .intro .skills li{
 	width: 30%;
@@ -67,7 +67,7 @@ a {
 	float: left;
 	padding-left: 2%;
 	padding-right: 4%;
-	padding-bottom: 40px;
+	padding-bottom: 4rem;
 }
 
 /*项目经历*/
@@ -79,33 +79,30 @@ a {
 .items h2,
 .workExp h2,
 .edu h2 {
-	font-size: 32px;
+	font-size: 2.8rem;
 	color: #404140;
 }
 
-.item,
-.work,
-.edu {
-	margin-top: -10px;
+.item {
+	margin-bottom: 1.5rem;
 }
 .item .technology {
 	float: right;
-	margin-top: -34px;
+	margin-top: -3rem;
 }
 .item .technology span {
 	color: #fff;
 	background-color: #008080;
 	text-align: center;
-	padding-left: 6px;
-	padding-right: 6px;
-	margin-left: 10px;
+	padding-left: .2rem;
+	padding-right: .2rem;
+	margin-left: .5rem;
 }
 .item h3,
 .work h3,
 .edu h3 {
-	font-size: 22px;
+	font-size: 2rem;
 	color: #366;
-	margin-bottom: 0;
 }
 .item p,
 .work p,
@@ -125,7 +122,7 @@ a {
 /*工作经历*/
 .workExp,
 .edu {
-	margin-top: 40px;
+	margin-top: 4rem;
 }
 .work p,
 .edu p {
@@ -133,7 +130,7 @@ a {
 }
 .work .time,
 .edu .time {
-	font-size: 12px;
+	font-size: 1.2rem;
 	color: #008080;
 }
 

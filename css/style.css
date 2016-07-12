@@ -1,0 +1,181 @@
+/*reset*/
+body,html,p,a,span,h1,h2,h3,h4,h5,h6,ul,li {
+	padding: 0;
+	maring: 0;
+}
+body {
+	font: 14px/2 "微软雅黑","宋体",sans-serif;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+
+/*layout*/
+.cv {
+	width: 90%;
+	position: relative;
+	left: 50%;
+	margin-left: -45%;
+}
+
+.intro {
+	width: 28%;
+	background-color: #336666;
+	float: left;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+.intro h1 {
+	font-size: 48px;
+	color: #fff;
+	text-align: center;
+	padding-top: 200px;
+	border-bottom: 2px solid #d7ecf1;
+	margin-bottom: 0;
+}
+.intro p {
+	line-height: 1.2em;
+	color: #002525;
+	text-align: center;
+}
+.intro h2 {
+	font-size: 24px;
+	color: #f3f8f1;
+	text-align: center;
+	border-bottom: 1px solid #d7ecf1;
+}
+.intro .skills li{
+	width: 30%;
+	text-align: right;
+	color: #fff;
+}
+.intro .contact {
+	color: #fff;
+}
+.intro .contact a:link,
+.intro .contact a:visited {
+	color: #fff;
+}
+
+/*过往经历*/
+.experience {
+	width: 54%;
+	background-color: #f3f8f1;
+	float: left;
+	padding-left: 2%;
+	padding-right: 4%;
+	padding-bottom: 40px;
+}
+
+/*项目经历*/
+.items,
+.workExp,
+.edu {
+	width: 100%;
+}
+.items h2,
+.workExp h2,
+.edu h2 {
+	font-size: 32px;
+	color: #404140;
+}
+
+.item,
+.work,
+.edu {
+	margin-top: -10px;
+}
+.item .technology {
+	float: right;
+	margin-top: -34px;
+}
+.item .technology span {
+	color: #fff;
+	background-color: #008080;
+	text-align: center;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-left: 10px;
+}
+.item h3,
+.work h3,
+.edu h3 {
+	font-size: 22px;
+	color: #366;
+	margin-bottom: 0;
+}
+.item p,
+.work p,
+.edu p {
+	color: #494b48;
+	margin-top: 0;
+}
+
+.items .more {
+	text-align: center;
+}
+.items .more a {
+	color: #008080;
+	text-decoration: underline;
+}
+
+/*工作经历*/
+.workExp,
+.edu {
+	margin-top: 40px;
+}
+.work p,
+.edu p {
+	margin-bottom: 0;
+}
+.work .time,
+.edu .time {
+	font-size: 12px;
+	color: #008080;
+}
+
+/*教育经历*/
+.edu h2 {
+	margin-bottom: 0;
+}
+.edu h3 {
+	margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

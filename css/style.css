@@ -5,7 +5,7 @@ body,html,p,a,span,h1,h2,h3,h4,h5,h6,ul,li {
 }
 body,
 html {
-	font: 14px/2 "微软雅黑","宋体",sans-serif;
+	font: 16px/2 "微软雅黑","宋体",sans-serif;
 }
 li {
 	list-style-type: none;
@@ -19,57 +19,167 @@ a {
 	width: 960px;
 	position: relative;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .intro {
-	width: 24%;
+	width: 28%;
 	background-color: #336666;
 	float: left;
-	padding-left: 6%;
-	padding-right: 6%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: 2000px;
+	margin-bottom: -2000px;
+}
+.intro .myPoto {
+	width: 100%;
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: -1rem;
+}
+.intro .myPoto img {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 100%;
 }
 .intro h1 {
-	font-size: 4.2rem;
+	font-size: 2.6rem;
 	color: #fff;
 	text-align: center;
-	padding-top: 12rem;
-	border-bottom: .2rem solid #d7ecf1;
+
+	border-bottom: .15rem solid #d7ecf1;
 	margin-bottom: 1rem;
 }
 .intro p {
-	line-height: 1.8em;
+	line-height: 2rem;
 	color: #fff;
-	text-align: center;
+	text-align: left;
+	padding-left: 2.5rem;
+	background-size: 1.5rem 1.5rem;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.intro p.bd {
+	background-image: url("../images/bd.png");
+}
+.intro p.address {
+	background-image: url("../images/address.png");
+	
+}
+.intro p.tel {
+	background-image: url("../images/tel.png");
+}
+.intro p.email {
+	background-image: url("../images/email.png");
+}
+.intro p.about {
+	line-height: 1.8rem;
+	padding-left: 0;
+	margin-top: 1rem;
+	margin-bottom: 15rem;
 }
 .intro h2 {
-	font-size: 2rem;
-	color: #f3f8f1;
+	font-size: 1.8rem;
+	color: #e2e4e1;
 	text-align: center;
-	border-bottom: .1rem solid #d7ecf1;
-	margin-bottom: 1rem;
-	margin-top: 1rem;
+	border-bottom: .1rem solid #e2e4e1;
+	margin-bottom: 1.5rem;
+	margin-top: 1.2rem;
 }
 .intro .skills li{
+	width: 100%;
+	color: #e2e4e1;;
+	position: relative;
+}
+.skills li span {
+	display: block;
 	width: 30%;
 	text-align: right;
-	color: #fff;
+}
+.skills li:before {
+	content: "";
+	position: absolute;
+	top: .4rem;
+	left: 35%;
+	height: 1.2rem;
+	background-color: #e2e4e1;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	z-index: 1;
+}
+.skills li:after {
+	content: "";
+	position: absolute;
+	top: .4rem;
+	left: 35%;
+	width: 65%;
+	height: 1.2rem;
+	background-color: #008080;;
+	border-radius: 10px;
+}
+.skills .ohtml:before {
+	width: 55%;
+}
+.skills .oCSS:before {
+	width: 52%;
+}
+.skills .ojQuery:before {
+	width: 50%;
+}
+.skills .oJS:before {
+	width: 46%;
+}
+.skills .oBootstrap:before {
+	width: 42%;
+}
+.skills .oSass:before {
+	width: 36%;
+}
+.skills .oWebApp:before {
+	width: 32%;
+}
+.skills .oGit:before {
+	width: 30%;
+}
+.skills .oCSS3:before {
+	width: 26%;
 }
 .intro .contact {
-	color: #fff;
+	position: absolute;
 }
+.intro .contact div {
+	color: #fff;
+	padding-left: 2.5rem;
+	background-size: 1.5rem 1.5rem;
+	background-repeat: no-repeat;
+	background-position: left center;
+
+}
+.contact .homepage {
+	background-image: url("../images/homepage.png");
+}
+.contact .zhihu {
+	background-image: url("../images/iconfont-zhihu.png");
+}
+.contact .weibo {
+	background-image: url("../images/weibo.png");
+}
+
 .intro .contact a:link,
 .intro .contact a:visited {
 	color: #fff;
 }
 
+
 /*过往经历*/
 .experience {
-	width: 58%;
+	width: 59%;
 	background-color: #f3f8f1;
 	float: left;
 	padding-left: 2%;
-	padding-right: 4%;
-	padding-bottom: 2rem;
+	padding-right: 3%;
+	padding-bottom: 2000px;
+	margin-bottom: -2000px;
 }
 
 /*项目经历*/
@@ -77,16 +187,17 @@ a {
 .workExp,
 .edu {
 	width: 100%;
+	margin-top: 2rem;
 }
 .items h2,
 .workExp h2,
 .edu h2 {
-	font-size: 2rem;
+	font-size: 1.6rem;
 	color: #404140;
 }
 
 .item {
-	margin-bottom: .5rem;
+	margin-bottom: 1rem;
 }
 .item .technology {
 	float: right;
@@ -96,24 +207,27 @@ a {
 	color: #fff;
 	background-color: #008080;
 	text-align: center;
-	padding-left: .2rem;
-	padding-right: .2rem;
-	
+	padding: 0 .2rem .1rem;
 }
-.item h3,
+.item h3 a,
 .work h3,
 .edu h3 {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	color: #366;
+/* 	display: inline-block;
+border-bottom: 1px solid #366;
+padding-bottom: 0; */
 }
+
 .item p,
 .work p,
 .edu p {
-	color: #494b48;
+	color: #333;
 	margin-top: 0;
 }
 
 .items .more {
+	margin-top: 1.5rem;
 	text-align: center;
 }
 .items .more a {
@@ -122,28 +236,23 @@ a {
 }
 
 /*工作经历*/
-.workExp,
-.edu {
-	margin-top: 1.5rem;
+
+
+.work {
+	margin-bottom: 1rem;
 }
 
-.work p,
-.edu p {
-	margin-bottom: 0;
-}
 .work .time,
 .edu .time {
-	font-size: 1.2rem;
+	font-size: .8rem;
 	color: #008080;
 }
 
-/*教育经历*/
-.edu h2 {
-	margin-bottom: 0;
+.edu {
+	padding-bottom: 6rem;
 }
-.edu h3 {
-	margin-top: 0;
-}
+
+
 
 
 

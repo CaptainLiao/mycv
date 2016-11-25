@@ -71,13 +71,16 @@ a {
 .intro p.email {
 	background-image: url("../images/email.png");
 }
+.intro p.ex {
+	background-image: url("../images/ex.png");
+}
 .intro p.about {
 	font-size: .9rem;
 	color: #e2e4e1;
 	line-height: 1.8rem;
 	padding-left: 0;
 	margin-top: 1rem;
-	margin-bottom: 15rem;
+	margin-bottom: 12rem;
 }
 .intro h2 {
 	font-size: 1.5rem;

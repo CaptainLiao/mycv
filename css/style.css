@@ -34,7 +34,7 @@ a {
 .intro .myPoto {
 	width: 100%;
 	text-align: center;
-	margin-top: 2rem;
+	margin-top: 3.5rem;
 	margin-bottom: -1rem;
 }
 .intro .myPoto img {
@@ -46,7 +46,6 @@ a {
 	font-size: 2.6rem;
 	color: #fff;
 	text-align: center;
-
 	border-bottom: .15rem solid #d7ecf1;
 	margin-bottom: 1rem;
 }
@@ -72,14 +71,19 @@ a {
 .intro p.email {
 	background-image: url("../images/email.png");
 }
+.intro p.ex {
+	background-image: url("../images/ex.png");
+}
 .intro p.about {
+	font-size: .9rem;
+	color: #e2e4e1;
 	line-height: 1.8rem;
 	padding-left: 0;
 	margin-top: 1rem;
-	margin-bottom: 15rem;
+	margin-bottom: 12rem;
 }
 .intro h2 {
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	color: #e2e4e1;
 	text-align: center;
 	border-bottom: .1rem solid #e2e4e1;
@@ -99,9 +103,9 @@ a {
 .skills li:before {
 	content: "";
 	position: absolute;
-	top: .4rem;
+	top: .6rem;
 	left: 35%;
-	height: 1.2rem;
+	height: 1rem;
 	background-color: #e2e4e1;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
@@ -110,10 +114,10 @@ a {
 .skills li:after {
 	content: "";
 	position: absolute;
-	top: .4rem;
+	top: .6rem;
 	left: 35%;
 	width: 65%;
-	height: 1.2rem;
+	height: 1rem;
 	background-color: #008080;;
 	border-radius: 10px;
 }
@@ -133,16 +137,19 @@ a {
 	width: 42%;
 }
 .skills .oSass:before {
-	width: 36%;
-}
-.skills .oWebApp:before {
 	width: 32%;
 }
-.skills .oGit:before {
+.skills .oWebApp:before {
 	width: 30%;
 }
+.skills .oGit:before {
+	width: 24%;
+}
 .skills .oCSS3:before {
-	width: 26%;
+	width: 22%;
+}
+.skills .oPhotoShop:before {
+	width: 18%;
 }
 .intro .contact {
 	position: absolute;
@@ -187,21 +194,21 @@ a {
 .workExp,
 .edu {
 	width: 100%;
-	margin-top: 2rem;
+	margin-top: 1.5rem;
 }
 .items h2,
 .workExp h2,
 .edu h2 {
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	color: #404140;
 }
 
 .item {
-	margin-bottom: 1rem;
+	margin-bottom: .6rem;
 }
 .item .technology {
 	float: right;
-	margin-top: -3rem;
+	margin-top: -2.5rem;
 }
 .item .technology span {
 	color: #fff;
@@ -212,7 +219,7 @@ a {
 .item h3 a,
 .work h3,
 .edu h3 {
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 	color: #366;
 /* 	display: inline-block;
 border-bottom: 1px solid #366;
@@ -224,10 +231,11 @@ padding-bottom: 0; */
 .edu p {
 	color: #333;
 	margin-top: 0;
+	font-size: 14px;
 }
 
 .items .more {
-	margin-top: 1.5rem;
+	margin-top: 1.2rem;
 	text-align: center;
 }
 .items .more a {

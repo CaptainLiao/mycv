@@ -163,13 +163,13 @@ a {
 
 }
 .contact .homepage {
-	background-image: url("../images/homepage.png");
+	background-image: url("../images/github.png");
 }
 .contact .zhihu {
 	background-image: url("../images/iconfont-zhihu.png");
 }
 .contact .weibo {
-	background-image: url("../images/weibo.png");
+	background-image: url("../images/CN_cnblogs.png");
 }
 
 .intro .contact a:link,
@@ -211,8 +211,7 @@ a {
 	margin-top: -2.5rem;
 }
 .item .technology span {
-	color: #fff;
-	background-color: #008080;
+	color: #008080;
 	text-align: center;
 	padding: 0 .2rem .1rem;
 }
@@ -232,6 +231,9 @@ padding-bottom: 0; */
 	color: #333;
 	margin-top: 0;
 	font-size: 14px;
+}
+.item p a {
+	color: #008080;
 }
 
 .items .more {
